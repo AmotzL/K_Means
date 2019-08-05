@@ -2,7 +2,7 @@ Server-side - k-means
 
 To run the code:
 1. Clone this repository
-2. Type: pip install.
+2. Type: pip install .
 3. Type: python __init__.py
 4. Go to http://127.0.0.1:5000 or http://localhost:5000
 5. Insert the number of the wanted clusters
