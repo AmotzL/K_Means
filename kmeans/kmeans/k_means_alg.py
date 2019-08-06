@@ -95,8 +95,8 @@ def run_algorithm(clusters_number):
     
     curr = os.getcwd()
     # Train data (60,000 images and labels):
-    images = parse_images(curr + 'kmeans/data/train-images.idx3-ubyte')
-    labels = parse_labels(curr + 'kmeans/data/train-labels.idx1-ubyte')
+    images = parse_images(curr + '/data/train-images.idx3-ubyte')
+    labels = parse_labels(curr + '/data/train-labels.idx1-ubyte')
 
     # Test data (10,000 images and labels):
     # uncomment in order to run faster on the test data set.
