@@ -5,8 +5,8 @@ $ git clone https://github.com/AmotzL/K_Means.git
 $ cd K_Means
 $ pip install .
 $ python kmeans/kmeans/run.py
-6. Go to http://127.0.0.1:5000 or http://localhost:5000
-7. Insert the number of the wanted clusters
+Go to http://127.0.0.1:5000 or http://localhost:5000
+Insert the number of the wanted clusters
 
 The program is running the k-means algorithm on the mnist data-set.
 For each cluster, the page represents the cluster centroid image, 
