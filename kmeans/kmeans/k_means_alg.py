@@ -92,14 +92,15 @@ def run_algorithm(clusters_number):
     """
     Run the K-means algorithm on the mnist data images.
     """
+    curr = os.getcwd()
     # Train data (60,000 images and labels):
-    images = parse_images('kmeans/data/train-images.idx3-ubyte')
-    labels = parse_labels('kmeans/data/train-labels.idx1-ubyte')
+    images = parse_images(curr + 'kmeans/data/train-images.idx3-ubyte')
+    labels = parse_labels(curr + 'kmeans/data/train-labels.idx1-ubyte')
 
     # Test data (10,000 images and labels):
     # uncomment in order to run faster on the test data set.
-    # images = parse_images('kmeans/data/t10k-images.idx3-ubyte')
-    # labels = parse_labels('kmeans/data/t10k-labels.idx1-ubyte')
+    # images = parse_images(curr + 'kmeans/data/t10k-images.idx3-ubyte')
+    # labels = parse_labels(curr + 'kmeans/data/t10k-labels.idx1-ubyte')
 
     centers_images, cluster_images, labels = k_means(clusters_number, images, labels)
     result = create_images(centers_images, cluster_images, labels)
