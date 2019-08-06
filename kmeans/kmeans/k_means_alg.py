@@ -7,7 +7,7 @@ import shutil
 import os
 
 
-path = 'static/cluster_images/'
+path = 'kmeans/static/cluster_images/'
 
 
 def parse_images(file_path):
@@ -66,7 +66,7 @@ def create_images(centers, clusters, true_labels):
     in the static folder.
     """
     result = {}
-    app_root = os.path.dirname(os.path.abspath(__file__))
+    app_root = os.getcwd()
     target = os.path.join(app_root, path)
     if os.path.exists(target):
         shutil.rmtree(target)
