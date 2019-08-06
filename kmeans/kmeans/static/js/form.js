@@ -21,7 +21,7 @@ $(document).ready(function() {
 	$('form').on('submit', function(event) {
 
 		$('#errorAlert').hide();
-		$('#successAlert').text('Calculating results, it might take a few minutes...').show();
+		$('#successAlert').text('It might take a few minutes...').show();
 
 		$.ajax({
 			data : {
