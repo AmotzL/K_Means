@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-import kmeans.k_means_alg
+from kmeans import k_means_alg
 
 
 app = Flask(__name__)
