@@ -4,7 +4,7 @@ To run the code:
 1. $ git clone https://github.com/AmotzL/K_Means.git
 2. $ cd K_Means
 3. $ pip install .
-4. $ python kmeans/kmeans/__init__.py
+4. $ python kmeans/kmeans/'__init__.py'
 5. Go to http://127.0.0.1:5000 or http://localhost:5000
 6. Insert the number of the wanted clusters
 
