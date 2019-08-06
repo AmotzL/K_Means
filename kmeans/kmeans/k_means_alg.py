@@ -7,7 +7,7 @@ import shutil
 import os
 
 
-path = 'kmeans/static/cluster_images/'
+path = 'static/cluster_images/'
 
 
 def parse_images(file_path):
