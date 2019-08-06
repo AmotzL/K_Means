@@ -1,12 +1,12 @@
 Server-side - k-means
 
 To run the code:
-$ git clone https://github.com/AmotzL/K_Means.git
-$ cd K_Means
-$ pip install .
-$ python kmeans/kmeans/run.py
-Go to http://127.0.0.1:5000 or http://localhost:5000
-Insert the number of the wanted clusters
+1. $ git clone https://github.com/AmotzL/K_Means.git
+2. $ cd K_Means
+3. $ pip install .
+4. $ python kmeans/kmeans/run.py
+5. Go to http://127.0.0.1:5000 or http://localhost:5000
+6. Insert the number of the wanted clusters
 
 The program is running the k-means algorithm on the mnist data-set.
 For each cluster, the page represents the cluster centroid image, 
