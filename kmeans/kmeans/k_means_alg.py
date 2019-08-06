@@ -92,6 +92,7 @@ def run_algorithm(clusters_number):
     """
     Run the K-means algorithm on the mnist data images.
     """
+    
     curr = os.getcwd()
     # Train data (60,000 images and labels):
     images = parse_images(curr + 'kmeans/data/train-images.idx3-ubyte')
